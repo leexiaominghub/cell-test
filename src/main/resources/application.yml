@@ -9,7 +9,8 @@ spring:
 
 logging:
   level:
-    root: info
+    root: debug
+    org.apache.tomcat.util.threads.LimitLatch: debug
     #org.apache: info
     #org.hibernate: info
     #org:
